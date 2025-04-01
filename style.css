@@ -1,0 +1,39 @@
+.container {
+    width: 942px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 44px;
+}
+.services {
+    padding-top: 109px;
+    padding-bottom: 119px;
+}
+.contact {
+    padding-top:92px ;
+    padding-bottom: 115px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-list {
+    display: flex;
+    gap: 10px;
+}
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+:root{
+    --main-logo-color: #fed136;
+    --main-nav-color: #fed136;
+    --main-title-color: #222;
+    --main-text-color: #777;
+    --secondary-title-color: #fff;
+    --main-background-color: #fff;
+    --secondary-background-color: #222;
+    --main-label-color: #777;
+    --main-button-color: #fed136;
+    --main-button-text-color: #fff;
+}
