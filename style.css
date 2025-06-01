@@ -37,6 +37,15 @@
     --main-button-color: #fed136;
     --main-button-text-color: #fff;
 }
-:root{
-    
+.icon-basket{
+    height: 69px;
+    width: 70px;
+}
+.icon-computer{
+  height: 69px;
+    width: 70px;  
+}
+.icon-lock{
+     height: 69px;
+    width: 70px;
 }
