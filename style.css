@@ -1,17 +1,33 @@
-.container {
-    width: 942px;
+
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "RobotoSlab", sans-serif;
+    --third-family: "DroidSerif", sans-serif;
+    --fourth-family: "Bilbo Swash Caps", sans-serif;
+    --header-text: rgba(254, 209, 54, 1);
+    --services-title: rgba(34, 34, 34, 1);
+    --services-description: rgba(119, 119, 119, 1);
+    --contact-title: rgba(255, 255, 255, 1);
+    --placeholder-color: rgba(187, 187, 187, 1);
+    --button-color: rgba(254, 209, 54, 1);
+}
+.container{
+width: 942px;
     margin: 0 auto;
 }
+    
+
 .header {
     padding-top: 44px;
 }
-.services {
+.service {
     padding-top: 109px;
     padding-bottom: 119px;
 }
 .contact {
     padding-top:92px ;
     padding-bottom: 115px;
+    background-color: #222;
 }
 .header-container {
     display: flex;
@@ -20,32 +36,171 @@
 .header-list {
     display: flex;
     gap: 10px;
+    list-style: none;
 }
-.services-list {
+.service-list {
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    gap: 41px;
 }
-:root{
-    --main-logo-color: #fed136;
-    --main-nav-color: #fed136;
-    --main-title-color: #222;
-    --main-text-color: #777;
-    --secondary-title-color: #fff;
-    --main-background-color: #fff;
-    --secondary-background-color: #222;
-    --main-label-color: #777;
-    --main-button-color: #fed136;
-    --main-button-text-color: #fff;
-}
+
 .icon-basket{
     height: 69px;
     width: 70px;
+    border: 3px solid #fed136;
+    border-radius: 50px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-right: 15px;
+    padding-left: 12px;
+    margin: 0 auto;
 }
 .icon-computer{
   height: 69px;
     width: 70px;  
+    border: 3px solid #fed136;
+    border-radius: 50px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-right: 15px;
+    padding-left: 12px;
 }
 .icon-lock{
      height: 69px;
     width: 70px;
+    border: 3px solid #fed136;
+    border-radius: 50px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-right: 15px;
+    padding-left: 12px;
+}
+.header-logo-link{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 36px;
+line-height: 114%;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fed136;
+text-decoration: none;
+}
+.header-link{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 293%;
+text-transform: uppercase;
+text-align: center;
+color: #fed136;
+text-decoration: none;
+}
+.service-title{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 188%;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+color: #222;
+}
+.service-subtitle{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 417%;
+letter-spacing: -0.02em;
+text-align: center;
+color: #222;
+}
+.service-desc{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #777;
+}
+.contact {
+    padding-top: 92px;
+    padding-bottom: 115px;
+    background-color: var(--services-title);
+}
+
+.contact-title {
+    color: var(--contact-title);
+    padding-top: 92px;
+    padding-bottom: 114px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1px;
+    font-family: var(--font-family);
+}
+
+.contact-form {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    padding-bottom: 27px;
+}
+
+.contact-form-list {
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+    list-style: none;
+}
+
+.contact-input {
+    color: var(--placeholder-color);
+    padding: 12px 310px 21px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.35px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: var(--placeholder-color);
+}
+
+input::placeholder {
+    color: var(--placeholder-color);
+    color: var(--placeholder-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.35px;
+}
+
+.contact-textarea::placeholder {
+    font-size: 14px;
+    color: var(--placeholder-color);
+    letter-spacing: -0.35px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.contact-textarea {
+    padding: 14px 286px 181px 22px;
+    border: 1px solid;
+    border-color: var(--placeholder-color);
+    border-radius: 2px;
+    resize: none;
+}
+
+.send-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--header-text);
+    color: var(--contact-title);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 18px 33px 28px 33px;
+    border: 0;
 }
