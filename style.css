@@ -15,6 +15,8 @@
 body {
     background-color: var(--contact-title);
     font-family: var(--font-family);
+    line-height: 41px;
+    font-weight: 400;
 }
 
 .container {
@@ -35,8 +37,7 @@ body {
 .header-logo {
     font-family: var(--other-family);
     font-size: 36px;
-    line-height: 41px;
-    font-weight: 400;
+    
     letter-spacing: 1.3px;
     color: var(--header-text);
 }
@@ -49,18 +50,14 @@ body {
 .header-link {
     color: var(--header-text);
     font-size: 14px;
-    line-height: 41px;
-    font-weight: 400;
+    
     font-size: 14px;
     letter-spacing: 0;
-    padding: 10;
+    padding: 2.5px 0 0.5px 0;
 }
 
 .services {
-    padding-top: 109px;
-    padding-bottom: 119px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 109px, 4px, 119px, 0;
 }
 
 .services-title {
@@ -73,10 +70,11 @@ body {
     padding-bottom: 87.5px;
 }
 
-.services-list {
+.services-list { 
     display: flex;
     gap: 56px;
     text-align: center;
+    
 }
 
 .services-item {
@@ -120,8 +118,7 @@ body {
 }
 
 .services-desc {
-    font-size: 14px;
-    font-weight: 400;
+    
     font-family: var(--second-family);
     color: var(--services-description);
 }
@@ -143,11 +140,11 @@ body {
     padding-top: 92px;
     padding-bottom: 115px;
     background-color: var(--services-title);
+    margin-top: 119px;
 }
 
 .contact-title {
     color: var(--contact-title);
-    padding-top: 92px;
     padding-bottom: 114px;
     text-align: center;
     font-size: 40px;
@@ -195,6 +192,7 @@ input::placeholder {
     letter-spacing: -0.35px;
     font-weight: 700;
     white-space: nowrap;
+    
 }
 
 .contact-textarea {
@@ -203,6 +201,7 @@ input::placeholder {
     border-color: var(--placeholder-color);
     border-radius: 2px;
     resize: none;
+    
 }
 
 .contact-button {
