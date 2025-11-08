@@ -17,6 +17,7 @@ body {
     font-family: var(--font-family);
     line-height: 41px;
     font-weight: 400;
+
 }
 
 .container {
@@ -50,14 +51,17 @@ body {
 .header-link {
     color: var(--header-text);
     font-size: 14px;
-    
+    padding: 10px;
     font-size: 14px;
     letter-spacing: 0;
     padding: 2.5px 0 0.5px 0;
 }
 
 .services {
-    padding: 109px, 4px, 119px, 0;
+    
+    padding-top: 109px;
+    padding-right: 4px;
+    padding-bottom: 119px;
 }
 
 .services-title {
@@ -118,7 +122,7 @@ body {
 }
 
 .services-desc {
-    
+    line-height: 1;
     font-family: var(--second-family);
     color: var(--services-description);
 }
@@ -140,7 +144,7 @@ body {
     padding-top: 92px;
     padding-bottom: 115px;
     background-color: var(--services-title);
-    margin-top: 119px;
+    
 }
 
 .contact-title {
@@ -163,6 +167,7 @@ body {
     display: flex;
     gap: 27px;
     align-items: center;
+    
 }
 
 .contact-input {
@@ -215,4 +220,5 @@ input::placeholder {
     border: 0;
     cursor: pointer;
     margin-top: 27px;
+    
 }
