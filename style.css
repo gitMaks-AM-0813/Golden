@@ -151,7 +151,7 @@ body {
 
 .contact-title {
     color: var(--contact-title);
-    padding-bottom: 114px;
+    
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -163,6 +163,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 27px;
+    padding-top: 114px;
 }
 
 .contact-wrapper {
@@ -204,12 +205,13 @@ input::placeholder {
 }
 
 .contact-textarea {
-    padding: 14px 22px 181px 22px;
+    padding: 14px 0 0 22px;
     border: 1px solid;
     border-color: var(--placeholder-color);
     border-radius: 2px;
     resize: none;
     width: 458px;
+    height: 212px;
 }
 
 .contact-button {
@@ -237,4 +239,11 @@ input::placeholder {
     display: flex;
     align-items: center;
     
+}
+.contact-textarea::placeholder{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
 }
