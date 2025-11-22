@@ -89,6 +89,7 @@ body {
     width: 70px;
     height: 69px;
     margin: 0 auto;
+    fill: var(--header-text);
 }
 
 .icon-lock {
@@ -99,6 +100,7 @@ body {
     width: 70px;
     height: 69px;
     margin: 0 auto;
+    fill: var(--header-text);
 }
 
 .icon-computer {
@@ -109,6 +111,7 @@ body {
     width: 70px;
     height: 69px;
     margin: 0 auto;
+    fill: var(--header-text);
 }
 
 .services-subtitle {
