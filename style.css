@@ -49,7 +49,7 @@ body {
     color: var(--header-text);
     font-size: 14px;
     padding: 10px;
-    letter-spacing: 0;
+    
 }
 
 .services {
@@ -82,36 +82,35 @@ body {
 }
 
 .icon-basket {
-    fill: var(--header-text);
     padding: 13px;
-    border: 3px solid var(--header-text);
-    border-radius: 100%;
     width: 70px;
     height: 69px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     fill: var(--header-text);
 }
 
 .icon-lock {
-    fill: var(--header-text);
     padding: 13px;
-    border: 3px solid var(--header-text);
-    border-radius: 100%;
     width: 70px;
     height: 69px;
-    margin: 0 auto;
+    
     fill: var(--header-text);
 }
 
 .icon-computer {
-    fill: var(--header-text);
     padding: 13px;
-    border: 3px solid var(--header-text);
-    border-radius: 100%;
     width: 70px;
     height: 69px;
-    margin: 0 auto;
+    
     fill: var(--header-text);
+}
+.icon-wrapper{
+    border: 3px solid var(--header-text);
+    border-radius: 100%;
+    width: 69px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 .services-subtitle {
@@ -122,8 +121,6 @@ body {
 }
 
 .services-desc {
-
-
     font-size: 14px;
     letter-spacing: -0.02em;
     text-align: center;
@@ -142,7 +139,7 @@ body {
 .contact-container {
     display: flex;
     flex-direction: column;
-    gap: 27px;
+
 }
 
 .contact {
@@ -154,7 +151,7 @@ body {
 
 .contact-title {
     color: var(--contact-title);
-    
+
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -169,12 +166,7 @@ body {
     padding-top: 114px;
 }
 
-.contact-wrapper {
-    display: flex;
-    gap: 27px;
-    align-items: center;
 
-}
 
 .contact-input {
     color: var(--placeholder-color);
@@ -191,7 +183,7 @@ body {
 
 input::placeholder {
     color: var(--placeholder-color);
-    color: var(--placeholder-color);
+    font-family: var(--font-family);
     font-size: 14px;
     font-weight: 700;
     line-height: 100%;
@@ -204,11 +196,11 @@ input::placeholder {
     letter-spacing: -0.35px;
     font-weight: 700;
     white-space: nowrap;
-
+    font-family: var(--font-family);
 }
 
 .contact-textarea {
-    padding: 14px 0 0 22px;
+    padding: 14px 22px 14px 22px;
     border: 1px solid;
     border-color: var(--placeholder-color);
     border-radius: 2px;
@@ -218,35 +210,39 @@ input::placeholder {
 }
 
 .contact-button {
-    margin: 0 auto;
+
     background-color: var(--header-text);
     color: var(--contact-title);
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 0px;
+
     padding: 18px 33px 28px 33px;
     border: 0;
     cursor: pointer;
-    margin-top: 27px;
+    
     font-family: var(--font-family);
     border-radius: 2px;
+    margin: 0 auto;
 }
-.input-wrapper{
+
+.input-wrapper {
     display: flex;
     flex-direction: column;
     gap: 28px;
     margin-right: 27px;
     align-items: center;
 }
-.textarea-wrapper{
+
+.textarea-wrapper {
     display: flex;
     align-items: center;
-    
+
 }
-.contact-textarea::placeholder{
+
+.contact-textarea::placeholder {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 14px;
-letter-spacing: -0.02em;
-text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
 }
