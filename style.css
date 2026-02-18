@@ -173,7 +173,7 @@ body {
 .contact-input {
     font-family: var(--font-family);
     color: var(--placeholder-color);
-    padding: 12px 20px 21px 20px;
+    padding: 2.7% 4.5% 4.7% 4.5%;
     width: 455px;
     font-size: 14px;
     font-weight: 700;
@@ -206,19 +206,20 @@ input::placeholder {
 }
 
 .contact-textarea {
-    padding: 14px 22px 14px 22px;
+    padding: 1.5% 2.2% 1.5% 2.2%;
     border: 1px solid;
     border-color: var(--placeholder-color);
     border-radius: 2px;
     resize: none;
     width: 458px;
-    height: 212px;
+     
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     outline: none;
+    color: var(--placeholder-color);
 }
 
 .contact-button {
@@ -241,14 +242,12 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     gap: 28px;
-    margin-right: 27px;
+    margin-right: 2.9%;
     align-items: center;
 }
 
 .textarea-wrapper {
     display: flex;
-    align-items: center;
-
 }
 
 .contact-textarea::placeholder {
@@ -257,4 +256,5 @@ input::placeholder {
     font-size: 14px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    color: var(--placeholder-color);
 }
